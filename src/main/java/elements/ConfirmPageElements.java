@@ -135,16 +135,16 @@ public class ConfirmPageElements {
     public static WebElement searchButon;
     @FindBy(css = "button.ui.button.light-blue.right.floated")
     public static List <WebElement> bookNow;
-    @FindBy(css = " input[id='CARcnN_0']")
+    @FindBy(css = "input[id='CARcnN_0']")
     public static WebElement cardNr;
-    @FindBy(css = "  input[id='CARcvv_0']")
+    @FindBy(css = "input[id='CARcvv_0']")
     public static WebElement cvvOfCreditCard;
-    @FindBy(css = "     select[id='CARexp_m_0']")
+    @FindBy(css = "select[id='CARexp_m_0']")
     public static WebElement expireDate;
-    @FindBy(css = "      select[id='CARexp_y_0']")
+    @FindBy(css = "select[id='CARexp_y_0']")
     public static WebElement expireYear;
 
-    @FindBy(css = "   input[name='cname_0']")
+    @FindBy(css = " input[name='cname_0']")
     public static WebElement nameOnCard;
     @FindBy(css = "  input[name='str_0']")
     public static WebElement address;
