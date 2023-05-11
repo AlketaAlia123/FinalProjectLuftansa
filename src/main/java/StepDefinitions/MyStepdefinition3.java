@@ -27,17 +27,12 @@ public class MyStepdefinition3 {
         //  firstPage.setDepartureCity0("Paris");
         firstPage.setDestinationCity0("Cancun");
         firstPage.setDepartureDate0();
-
-
         // firstPage.selectDay();
         firstPage.DayMultiFirstDep();
         firstPage.clickAddLeg0();
-
         firstPage.setDepartureCity1("Cancun");
         firstPage.setDestinationCity1("Tijuana");
         firstPage.setDepartureDate1();
-
-
         // firstPage.selectDay();
         firstPage.DayMultiFirstDep();
         firstPage.clickAddLeg1();
@@ -131,7 +126,6 @@ public class MyStepdefinition3 {
         confirmPage.setConfirmEmail("alketa@gmail.com");
         confirmPage.cvv2("1111");
         confirmPage.clickCvvOfCreditCard("737");
-
         confirmPage.expDateCard(3);
         confirmPage.expYearCard(2);
         confirmPage.enterNameCreditCard("John Doe");
