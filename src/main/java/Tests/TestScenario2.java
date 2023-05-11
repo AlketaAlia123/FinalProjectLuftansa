@@ -26,11 +26,9 @@ public class TestScenario2 {
         firstPage.setDepartureDate();
         //firstPage.clickNextMonth();
         firstPage.selectDay();
-
         firstPage.setReturnDate();
         firstPage.clickNextMonth();
         firstPage.selectDay();
-
         firstPage.setAdultCounter(1);
         firstPage.setInfantCounter(1);
         firstPage.setPrefClass(3);
@@ -40,8 +38,8 @@ public class TestScenario2 {
 
         //Search Page
         searchPage.clickRatestButton();
-       // searchPage.clickPriceBtn();
-          searchPage.clickBookBtn(0);
+        searchPage.clickBookBtn(0);
+        //Confirm Page
         confirmPage.setFirstName("Test");
         confirmPage.setLastName("Test1");
         confirmPage.setEmail("Test@gmail.com");
@@ -74,10 +72,8 @@ public class TestScenario2 {
         confirmPage.setDateThirdPassanger(2);
         confirmPage.setMonthThirdPassanger("Jun");
         confirmPage.setYearThirdPassanger(3);
-
         confirmPage.cvv2("1111");
         confirmPage.clickCvvOfCreditCard("737");
-
         confirmPage.expDateCard(3);
         confirmPage.expYearCard(2);
         confirmPage.enterNameCreditCard("John Doe");
@@ -88,6 +84,6 @@ public class TestScenario2 {
         confirmPage.clickAgree();
         confirmPage.clickConfim();
         confirmPage.verifyMsgIsDisplayed();
-        //  Assert.assertTrue(firstPage.checkRegister());
+
     }
 }

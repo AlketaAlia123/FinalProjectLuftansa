@@ -21,31 +21,24 @@ public class TestScenario3 {
         firstPage.clickMultiDes();;
 
         firstPage.setDepartureCity0("New York"); //Tirana
-      //  firstPage.setDepartureCity0("Paris"); //Tirana
+        //firstPage.setDepartureCity0("Paris"); //Tirana
         firstPage.setDestinationCity0("Miami"); //Vienna
         firstPage.setDepartureDate0();
-
-       // firstPage.selectDay();
+        //firstPage.selectDay();
         firstPage.DayMultiFirstDep();
         firstPage.clickAddLeg0();
-
         firstPage.setDepartureCity1("Miami"); //Vienna
         firstPage.setDestinationCity1("San Francisco");//Bangkok
         firstPage.setDepartureDate1();
-       // firstPage.selectDay();
+        //firstPage.selectDay();
         firstPage.DayMultiFirstDep();
         firstPage.clickAddLeg1();
-
         firstPage.setDepartureCity2("San Francisco"); //Bangkok
         firstPage.setDestinationCity2("Miami");//Vienna
         firstPage.setDepartureDate2();
         firstPage.DayMultiThirdDep();
-       // firstPage.selectDay();
+        //firstPage.selectDay();
         //firstPage.clickNextMonth();
-
-
-
-
         firstPage.setAdultCounter(2);
         firstPage.setCildCounterter(2);
         firstPage.setPrefClass(1);
@@ -53,14 +46,12 @@ public class TestScenario3 {
         firstPage.clickFlightType(1);
         //firstPage.setPrefAirline("Austrian");
         firstPage.clickSearch();
-
         searchPage.clickRatestButton();
 
-searchPage.clickBookNow3();
+        searchPage.clickBookNow3();
 
-       // confirmPage.setMultiFirstName("Test");
-       // confirmPage.setMultiLastName("Test");
-
+        //confirmPage.setMultiFirstName("Test");
+        //confirmPage.setMultiLastName("Test");
         confirmPage.setFirstName("Test");
         confirmPage.setLastName("Test1");
         confirmPage.setEmail("Test@gmail.com");
@@ -112,7 +103,6 @@ searchPage.clickBookNow3();
         confirmPage.setConfirmEmail("Test@gmail.com");
         confirmPage.cvv2("1111");
         confirmPage.clickCvvOfCreditCard("737");
-
         confirmPage.expDateCard(3);
         confirmPage.expYearCard(2);
         confirmPage.enterNameCreditCard("John Doe");
@@ -123,22 +113,5 @@ searchPage.clickBookNow3();
         confirmPage.clickAgree();
         confirmPage.clickConfim();
         confirmPage.verifyMsgIsDisplayed();
-
-        /*
-        confirmPage.setDateThirdPassanger(2);
-        confirmPage.setMonthThirdPassanger("Jun");
-        confirmPage.setYearThirdPassanger(3);
-
-        confirmPage.setDateSecondPassanger(2);
-        confirmPage.setMonthSecondPassanger("July");
-        confirmPage.setYearSecondPassanger(3);
-        /*
-        confirmPage.setLastName("Test1");
-        confirmPage.setEmail("Test@gmail.com");
-        confirmPage.setConfirmEmail("Test@gmail.com");
-        confirmPage.setPhoneNo("355691212123");
-        confirmPage.clickSecondPassanger();
-        confirmPage.setFirstName2("Testt");
-        confirmPage.setLastName2("Testtt");*/
     }
 }

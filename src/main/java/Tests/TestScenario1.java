@@ -32,7 +32,7 @@ public class TestScenario1 {
         //Search Page
         searchPage.clickRatestButton();
         //searchPage.clickPriceBtn();
-         searchPage.clickBookBtn(0);
+        searchPage.clickBookBtn(0);
         confirmPage.setFirstName("Test");
         confirmPage.setLastName("Test1");
         confirmPage.setEmail("Test@gmail.com");
@@ -48,13 +48,13 @@ public class TestScenario1 {
         confirmPage.save(0);
 
         confirmPage.cvv("1111");
-        // confirmPage.clickCash();
-       confirmPage.clickAgree();
+        //confirmPage.clickCash();
+        confirmPage.clickAgree();
         confirmPage.clickConfim();
-       // confirmPage.getBookingNr();
+        //confirmPage.getBookingNr();
         confirmPage.verifyMsgIsDisplayed();
         //confirmPage.clickAgree();
-        //  Assert.assertTrue(firstPage.checkRegister());
+        //Assert.assertTrue(firstPage.checkRegister());
     }
 }
 
